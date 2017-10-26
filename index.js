@@ -3,7 +3,7 @@ $(document).ready(function() {
   infoClick()
 
   $('#my_popup').popup({
-    color: '#F65915',
+    // color: '#F7EA34',
     opacity: 10.0
   });
 

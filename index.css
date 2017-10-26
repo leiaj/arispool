@@ -1,7 +1,8 @@
 body {
     background-image: url("ASSETS/home_bg.jpg");
     font-family: "HelveticaNeue-Light";
-    color: #41DF56
+    color: #41DF56;
+    height: 800px;
 }
 
 #logo{
@@ -21,22 +22,31 @@ body {
 }
 
 #overlay_popup{
+  border-top-color: #F77534;
+  border-left-color: #403C3B;
+  border-right-color: #403C3B;
   border-style: solid;
-  border-color: #403C3B;
-  border-width: thick;
+  border-bottom-color: #F7EA34;
+  border-top-width: 20px;
+  border-bottom-width: 20px;
   background-color: #403C3B;
-  top: 10px;
+  /*top: 10px;*/
   height: 700px;
-  width: 400px;
+  width: 1000px;
 }
 
 #overlay_popup p{
   margin: 40px;
 }
 
+#overlay_popup a{
+  font-family: "HelveticaNeue-Light";
+  color: #41DF56;
+}
+
 .my_popup_close img{
   position: absolute;
-  top: 10px;
+  top: 30px;
   right: 10px;
   height: 20px;
   width: 20px;
@@ -45,32 +55,39 @@ body {
 input.button{
   background: transparent;
   border-color: #41DF56;
+  color: #41DF56;
 }
 
 #mce-EMAIL{
   height: 23px;
   width: 150px;
   position: absolute;
-  border-color: #FEF02F;
-  background: #FEF02F;
+  border-color: #41DF56;
+  background: transparent;
   font-family: "HelveticaNeue-Light";
   font-size: 100%;
   outline: none;
 }
 
 #mc-embedded-subscribe{
-  border-color: #FEF02F;
+  border-color: #41DF56;
   height: 30px;
   width: 100px;
   position: relative;
   left: 160px;
-  background: #FEF02F;
+  background: transparent;
   font-family: "HelveticaNeue-Light";
+  color: #41DF56;
   outline: none;
   font-size: 100%;
 }
 
 #follow{
+  height: 20px;
+  width: 20px;
+}
+
+#email{
   height: 20px;
   width: 20px;
 }
