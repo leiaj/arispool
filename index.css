@@ -41,3 +41,24 @@ body {
   height: 20px;
   width: 20px;
 }
+
+input.button{
+  background: transparent;
+  border-color: #41DF56;
+}
+
+#mce-EMAIL{
+  position: absolute;
+  border-color: #41DF56;
+  background: transparent;
+  font-family: "HelveticaNeue-Light";
+  color: #41DF56
+}
+
+#mc-embedded-subscribe{
+  position: relative;
+  left: 120px;
+  background: transparent;
+  font-family: "HelveticaNeue-Light";
+  color: #41DF56
+}
