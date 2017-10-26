@@ -6,7 +6,7 @@ body {
 
 #logo{
   width: 700px;
-  margin-top: 200px;
+  margin-top: 95px;
 }
 
 #info img{
@@ -48,17 +48,29 @@ input.button{
 }
 
 #mce-EMAIL{
+  height: 23px;
+  width: 150px;
   position: absolute;
-  border-color: #41DF56;
-  background: transparent;
+  border-color: #FEF02F;
+  background: #FEF02F;
   font-family: "HelveticaNeue-Light";
-  color: #41DF56
+  font-size: 100%;
+  outline: none;
 }
 
 #mc-embedded-subscribe{
+  border-color: #FEF02F;
+  height: 30px;
+  width: 100px;
   position: relative;
-  left: 120px;
-  background: transparent;
+  left: 160px;
+  background: #FEF02F;
   font-family: "HelveticaNeue-Light";
-  color: #41DF56
+  outline: none;
+  font-size: 100%;
+}
+
+#follow{
+  height: 20px;
+  width: 20px;
 }
