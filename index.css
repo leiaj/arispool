@@ -2,7 +2,7 @@ body {
     background-image: url("ASSETS/home_bg.jpg");
     font-family: "HelveticaNeue-Light";
     color: #41DF56;
-    height: 800px;
+    height: 500px;
 }
 
 #logo{
@@ -19,6 +19,7 @@ body {
 }
 
 #my_popup{
+  width: 100%;
 }
 
 #overlay_popup{
@@ -30,9 +31,9 @@ body {
   border-top-width: 20px;
   border-bottom-width: 20px;
   background-color: #403C3B;
-  /*top: 10px;*/
-  height: 700px;
-  width: 1000px;
+  position: relative;
+  height: 100%;
+  width: 100%;
 }
 
 #overlay_popup p{
