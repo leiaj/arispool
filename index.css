@@ -40,29 +40,21 @@ body {
 }*/
 
 #overlay_popup{
+  top: 20px;
+  bottom: 20px;
   border-top-color: #F77534;
-  border-left-color: #403C3B;
-  border-right-color: #403C3B;
-  border-style: solid;
-  border-bottom-color: #F7EA34;
-  border-top-width: 20px;
+  border-top: 20px;
+  border-bottom: 20px;
   background-color: #403C3B;
   height: 100%;
   width: 100%;
   overflow: hidden;
-}
-
-#bottom{
-  margin-top: 450px;
-  height: 10px;
-  border-style: solid;
-  border-color: #F7EA34;
-  background-color: #F7EA34;
-  border-width: thick;
+  padding: 40px 0;
+  box-shadow: inset 0px 20px 0px #F77534, inset 0px -20px 0px #F7EA34;
 }
 
 #overlay_popup p{
-  font-size: x-large;
+  font-size: large;
   margin-left: 30%;
 }
 
@@ -72,7 +64,7 @@ body {
 
 #overlay_popup a{
   font-family: "HelveticaNeue-Light";
-  font-size: x-large;
+  font-size: large;
   color: #41DF56;
 }
 
