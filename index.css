@@ -40,17 +40,19 @@ body {
 }*/
 
 #overlay_popup{
-  top: 20px;
-  bottom: 20px;
-  border-top-color: #F77534;
-  border-top: 20px;
-  border-bottom: 20px;
+  top: 0px;
+  bottom: 0px;
+  border-top: 20px solid #F77534;
+  border-bottom: 20px solid #F7EA34;
   background-color: #403C3B;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: auto;
+  overflow-x: hidden;
   padding: 40px 0;
-  box-shadow: inset 0px 20px 0px #F77534, inset 0px -20px 0px #F7EA34;
+  position: absolute;
 }
 
 #overlay_popup p{
